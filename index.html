@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Creating Custom Elements</title>
+        <script src="./main.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div id="webheader"><h1>My Comment Component App</h1></div>
+
+      <div id="overall">
+
+    
+        <!-- helloworld212-element
+        Attributes work independently:   
+        username="Gena"
+        email="gena.hurst@gmail.com"
+        title="Professional Life Coach"
+        OR USING JSON ATTRIBUTE "userdetails"
+        </!-->
+
+        <div class = "result-grid" id = "result-grid">
+          <div class="inputinfo">
+            <form id="forminput">
+            <label for="nameinput"><h3><span>Name: </span></label>
+            <input type="text" id="text" class="text" name="text" placeholder="Name" required><br>
+            <label for="emailinput"><h3><span>Email: </span></label>
+            <input type="email" id="email" class="email" name="email" placeholder="Email" required>
+            <label for="commentinput"><h3>Comment:</h3></label>
+            <textarea type="comment" id="comment" class="comment" name="comment" cols="50" rows="4" required>
+            </textarea>
+          </form></div>
+
+      
+      
+      <!--userdetails= '{"username":"Gena", "email": "gena.hurst@gmail.com", "title": "Professional Life Coach"}<!-->
+        <div id=firstcomp>
+        <helloworld212-element>
+        <h1>username="Tara"</h1>
+        <h3>email="gena.hurst@gmail.com"</h3>
+        <h2>quote="Superior Attitude, Superior State of Mind!"</h2>
+      </helloworld212-element>
+
+      </div>
+</div><br>
+<div id="tempholder">
+      <div id=comcomp>
+        <helloworld212-element>
+        <h1>username="Gena"</h1>
+        <h3>email="gena.hurst@gmail.com"</h3>
+        <h2>quote="Superior Attitude, Superior State of Mind!"</h2>
+      </helloworld212-element>
+</div>
+      <div id=comcomp>
+        <helloworld212-element>
+        <h1>username="Gena"</h1>
+        <h3>email="gena.hurst@gmail.com"</h3>
+        <h2>quote="Superior Attitude, Superior State of Mind!"</h2>
+      </helloworld212-element>
+</div>
+      <div id=comcomp>
+        <helloworld212-element>
+        <h1>username="Gena"</h1>
+        <h3>email="gena.hurst@gmail.com"</h3>
+        <h2>quote="Superior Attitude, Superior State of Mind!"</h2>
+      </helloworld212-element>
+      
+      </div>
+      
+      </div>
+      </div>
+    
+</html>
