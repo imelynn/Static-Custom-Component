@@ -1,36 +1,36 @@
 body {
-    background-color: black;
+  background-color: black;
+}
+
+#overall{
+  background-color: black;
+  
+  color: aquamarine;
   }
 
-  #overall{
-    background-color: black;
-    
-    color: aquamarine;
-    }
+  #webheader{
+    margin-inline-start: 400px;
+  }
 
-    #webheader{
-      margin-inline-start: 400px;
-    }
-
-    .result-grid{
-      width: 1200px;
-       background-color: black;
-       display: flex;
-       margin: 2rem;
-            
-    }
+  .result-grid{
+    width: 1200px;
+     background-color: black;
+     display: flex;
+     margin: 2rem;
+          
+  }
 
 .inputinfo{
-    background-color: black;
-    margin: 2rem;
-    margin-left: 100px;
-    padding-left: 10px;
-    width: 400px; 
-    border: aquamarine;
-    border-style: solid;
-    border-width: 20px;
-    border-radius: 10px;
-    height: 350px;    
+  background-color: black;
+  margin: 2rem;
+  margin-left: 100px;
+  padding-left: 10px;
+  width: 400px; 
+  border: aquamarine;
+  border-style: solid;
+  border-width: 20px;
+  border-radius: 10px;
+  height: 350px;    
 }
 
 #firstcomp{
@@ -73,11 +73,11 @@ justify-content: center;
 
 
 h3{
-    color: aquamarine;
+  color: aquamarine;
 }
 
 h1{
-  color: aquamarine;
-  text-shadow: 30px black;
+color: aquamarine;
+text-shadow: 30px black;
 
 }
